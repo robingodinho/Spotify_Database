@@ -117,7 +117,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Spotify Web API](https://developer.spotify.com/documentation/web-api/) for providing the data needed to power this project.
 
 ## Contact
-For any questions or contributions, please feel free to reach out to [your email here].
+For any questions or contributions, please feel free to reach out to rgodinho@umd.edu.
 
 ---
 
