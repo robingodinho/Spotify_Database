@@ -87,6 +87,12 @@ spotify-music-database/
    - Use the provided SQL scripts to query the database and analyze user listening trends.
    - Recommendations can be generated based on insights from analysis, such as top genres or frequently skipped songs.
 
+## Entity Relationship Diagraam
+![ERD](https://github.com/robingodinho/Spotify_Database/blob/ac4bab5c2a31887761067295ba57d3c4d222afb0/ERD_Spotify.png)
+
+## Artist Table
+![Artist Table](https://github.com/robingodinho/Spotify_Database/blob/ac4bab5c2a31887761067295ba57d3c4d222afb0/Artist_table.png)
+
 ## Example Queries
 - **Top 10 Most Played Songs**:
   ```sql
@@ -104,6 +110,16 @@ spotify-music-database/
   GROUP BY day_of_week 
   ORDER BY day_of_week;
   ```
+
+ - **List All of the RnB Songs**:
+  ```sql
+  CREATE VIEW RnB_songs AS
+SELECT track_name, genre_name
+FROM spotify_songs
+INNER JOIN genre
+ON genre_id = genre.genre_id
+WHERE genre_name = 'R&B';
+  ``` 
 
 ## Future Improvements
 - Implement machine learning algorithms for more complex recommendation systems.
