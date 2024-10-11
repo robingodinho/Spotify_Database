@@ -3,7 +3,7 @@
 
 ## Project Overview
 The **Spotify Music Database Project** is a data analysis initiative that leverages the Spotify API and SQL to analyze user music trends and generate personalized recommendations. By querying and analyzing various aspects of the user's music history, this project aims to identify listening patterns and provide tailored music suggestions.
-![Spotify](https://github.com/robingodinho/Spotify_Database/blob/735165184cde990efe3005aabfb067076ee8f1dd/Spotify.png)
+![Spotify](https://github.com/robingodinho/Spotify_Database/blob/541b905a2a7036b3aa20d0d95a8db1223ba5bccb/spotify_ad.png)
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
